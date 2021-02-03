@@ -1,0 +1,16 @@
+Lab 2 written by Elizabeth Graham
+
+Enter the number of quarters: 2
+Enter the number of dimes: 2
+Enter the number of nickels: 2
+Enter the number of pennies: 2
+0.82
+
+
+Enter the total dollar amount (x.xx): 3.18
+Quarters: 12
+Dimes: 1
+Nickels: 1
+Pennies: 3
+
+Process finished with exit code 0
