@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lab4;
 
 import java.awt.*;
 import java.util.Scanner;

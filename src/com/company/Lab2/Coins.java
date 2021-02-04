@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lab2;
 
 import java.util.*;
 import java.text.MessageFormat;
