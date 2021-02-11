@@ -11,7 +11,6 @@ public class Lab5 {
         about the circles. Each item of information should correspond to a different static
         method.
     */
-
     public static final int PANEL_SIZE = 512;  // Constant panel size var, width and height
     public static DrawingPanel panel = new DrawingPanel(PANEL_SIZE, PANEL_SIZE);  // Init Panel with proper dimensions
     public static Graphics g = panel.getGraphics();  // Init graphics instance
@@ -56,7 +55,7 @@ public class Lab5 {
     public static int findCenterPoint(int center, int w) {
         double xPoint = center - (0.5 * w);  // x = center - 1/2w
         return (int)xPoint;
-    }
+    } 
 
 
     public static void drawCircle(int xPoint, int radius) {
