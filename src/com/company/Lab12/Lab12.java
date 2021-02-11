@@ -1,5 +1,5 @@
-package com.company.Lab6;
+package com.company.Lab12;
 
-public class Lab6 {
+public class Lab12 {
     
 }
