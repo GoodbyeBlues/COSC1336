@@ -1,7 +1,8 @@
+package com.company.Lab7;
+
 import java.awt.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
-import java.System;
 
 public class Lab7 {
     /** Game and Playoff Simulations
@@ -9,7 +10,9 @@ public class Lab7 {
      */
 
     public static final Scanner CONSOLE = new Scanner(System.in);
-    public static int panelSize = 512;  // Canel size var, width and height
+    public static int panelSize = 512;  // Panel size var, width and height
+    static int Dx = UpperLeftCircleX + r;  //drunk initial position
+	static int Dy = UpperLeftCircleY + r;  //at center of circle
 
 
     public static void main(String[] args) {
@@ -41,13 +44,26 @@ public class Lab7 {
 
 
     public static void makeStep() {
+        /**
+         * A random walk begins at a point and repeatedly takes a step in a randomly chosen direction. 
+         * In our version, the random walk will start at the center of a circle and continue until it 
+         * goes outside the circle. Each step will be randomly chosen from one pixel up, onepixel down, 
+         * one pixel left, and one pixel right (this kind of random walk is called the "drunkard's walk"). 
+         * Call the nextInt(...) method on a Random object to generate an integer between 0 and 3 and 
+         * map each value to one of the steps. The random walk will be drawn on a Graphics object. 
+         */
         Random rand = new Random();
+        int randNum = rand.nextInt(3);
+        int startPoint = rand.nextInt();  // 
+        // directions = {0: Down, 1: Up, 2: Left, 3: Right}
 
         while (true) {
+            
             System.out.println(randNum);
             if (randNum == 3) {
                 break;
             }
+            Window.panel.sleep(500);
         }
     }
 }
